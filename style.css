@@ -1,6 +1,10 @@
 body {
-    display: flex;
     margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -17,6 +21,12 @@ body {
     font-size: 24px;
     margin-left: 320px;
 
+}
+
+.under-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
 }
 
 ul {
