@@ -27,6 +27,19 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    background-color: #1f2937;
+}
+
+.under-header-text {
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
 }
 
 ul {
